@@ -1,4 +1,5 @@
-/*SP.css v1*/
+/*sp.css v1*/
+/* ---REMOVE BELOW WHEN CONSTRUCTION ENDS-- */
 #footer-info {
 display: none;
 }
@@ -17,4 +18,13 @@ font-weight: bold;
 #construction-text2 {
 font-size: 30px;
 color: black;
+}/* ---REMOVE ABOVE WHEN CONSTRUCTION ENDS-- */
+
+.homeheader1 .et_pb_fullwidth_header_container, .homeheader1 .header-content-container {
+  display: inline-block !important;
+  vertical-align: top;
+}
+
+.homeheader1 .header-content-container {
+  padding-top: 24px;
 }
