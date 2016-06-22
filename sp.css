@@ -27,7 +27,7 @@ color: black;
 }
 
 .homeheader1 .header-content-container {
-  padding-top: calc(140px - 5vw) !important;
+  padding-top: calc(140px - 5vw);
 }
 
 .header-content h1 {
@@ -36,13 +36,13 @@ color: black;
 
 @media only screen and (min-width: 981px) {
 #logo {
-  margin-top: -37px !important;
+  margin-top: -37px;
 }
 
 .menu-item a {
   margin-top: 0px;
   padding-bottom: 6px !important;
-  padding-top: 10px !important;
+  padding-top: 10px;
   background-color: #d1e5aa;
   color: black !important;
 }
@@ -57,17 +57,13 @@ color: black;
 }
 
 .et_menu_container {
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-#et-top-navigation {
-  padding-top: 53px !important;
+  width: 100%;
+  max-width: 100%;
 }
 
 .homeheader1 {
-  height: calc(100vh - 100px) !important;
-  min-height: calc(100vh - 100px) !important;
+  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
 }
 }
 
@@ -86,3 +82,24 @@ color: black;
 }
 }
 /*^^^  Class to center child elements vertically  ^^^*/
+
+.home-img-1 {
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.contactbg1 {
+  background-color: #D1E5AA;
+}
+
+p.contact {
+  color: black ;
+}
+
+.footersect {
+  padding: 0;
+}
+
+.footerlink {
+  color: darkorange;
+}
