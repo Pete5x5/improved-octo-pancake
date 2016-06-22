@@ -65,6 +65,9 @@ color: black;
   height: calc(100vh - 100px);
   min-height: calc(100vh - 100px);
 }
+  .contact2 {
+margin-left: 5vw;
+}
 }
 
 /*vvv  Class to center child elements vertically  vvv*/
@@ -90,6 +93,7 @@ color: black;
 
 .contactbg1 {
   background-color: #D1E5AA;
+  padding: 24px;
 }
 
 p.contact {
@@ -102,4 +106,32 @@ p.contact {
 
 .footerlink {
   color: darkorange;
+}
+
+.addresstext1 {
+  margin-bottom: 15px !important;
+  }
+
+.mapcode1 {
+  border: black solid 1px;
+  max-width: 350px;
+}
+
+@media only screen and (max-width: 980px) {
+  .contact {
+    text-align: center;
+  }
+  .mapcode1 {
+    max-width: 350px;
+    margin: auto;
+}
+}
+
+.footersect2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.footertext {
+  text-align: right;
 }
