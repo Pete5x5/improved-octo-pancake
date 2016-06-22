@@ -18,7 +18,8 @@ font-weight: bold;
 #construction-text2 {
 font-size: 30px;
 color: black;
-}/* ---REMOVE ABOVE WHEN CONSTRUCTION ENDS-- */
+}
+/* ---REMOVE ABOVE WHEN CONSTRUCTION ENDS-- */
 
 .homeheader1 .et_pb_fullwidth_header_container, .homeheader1 .header-content-container {
   display: inline-block !important;
@@ -26,5 +27,46 @@ color: black;
 }
 
 .homeheader1 .header-content-container {
-  padding-top: 24px;
+  padding-top: calc(140px - 5vw) !important;
+}
+
+.header-content h1 {
+  font-size: 35px;
+}
+
+@media only screen and (min-width: 981px) {
+#logo {
+  margin-top: -37px !important;
+}
+
+.menu-item a {
+  margin-top: 0px;
+  padding-bottom: 6px !important;
+  padding-top: 10px !important;
+  background-color: #d1e5aa;
+  color: black !important;
+}
+  
+.menu-item a:hover {
+  color: white !important;
+}
+
+#top-menu-nav {
+  background-color: #d1e5aa;
+  width: 100vw;
+}
+
+.et_menu_container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#et-top-navigation {
+  padding-top: 53px !important;
+}
+
+.homeheader1 {
+  height: calc(100vh - 100px) !important;
+  min-height: calc(100vh - 100px) !important;
+}
 }
