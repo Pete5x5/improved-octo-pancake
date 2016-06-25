@@ -1,83 +1,3 @@
-#fade {  
--khtml-border-radius: 5px;    /* for the rounded corners */
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-border-radius: 5px;
--webkit-box-shadow: 1px 1px 3px grey; /* for the drop shadow */
-background-color:rgba(255,255,255,0.7);
-line-height: 16px;
-padding: 15px;
-}
-
-#title {
-font-size: 48px;
-font-weight: normal !important;
-}
-
-#subtitle {
-font-size: 20px;
-font-weight: normal !important;
-}
-
-#fadetitle {  
--khtml-border-radius: 5px;    /* for the rounded corners */
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-border-radius: 5px;
--webkit-box-shadow: 1px 1px 3px grey; /* for the drop shadow */
-background-color:rgba(255,255,255,0.7);
-line-height: 16px;
-padding: 15px;
-font-size: 30px;
-font-weight: normal !important;
-}
-
-#fadetitledark {  
--khtml-border-radius: 5px;    /* for the rounded corners */
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-border-radius: 5px;
--webkit-box-shadow: 0px 0px 0px grey; /* for the drop shadow */
-background-color:rgba(0,0,0,0.7);
-line-height: 16px;
-padding: 15px;
-font-size: 30px;
-font-weight: normal !important;
-font-color: white !important;
-border-color: grey;
-border: solid 2px;
-}
-
-#titlestroke {
-color: white;
-font-size: 35px;
-text-shadow: 1px 1px 0 black, -1px -1px 0 black;
--webkit-text-fill-color: white; /* Will override color (regardless of order) */
--webkit-text-stroke-width: 1.5px;
--webkit-text-stroke-color: black;
-line-height: 1.2em;
-}
-
-#titlestrokeblue {
-color: blue !important;
-font-size: 35px;
-text-shadow: 1px 1px 0 black, -1px -1px 0 white;
--webkit-text-fill-color: white; /* Will override color (regardless of order) */
--webkit-text-stroke-width: 1.5px;
--webkit-text-stroke-color: white;
-line-height: 1.2em;
-}
-
-#titleplain {
-color: #137373;
-font-size: 35px;
-}
-
-
-#main-header {
-box-shadow: 0px 1px 8px;
-}
-
 a.et_pb_more_button {
 color: inherit;
 text-shadow: none;
@@ -111,9 +31,8 @@ line-height: 1;
 -moz-osx-font-smoothing: grayscale;
 }
 
-#inhome {
-font-color: black !important;
-color: white !important;
+.inhometext {
+color: white;
 font-size: 25px;
 }
 
@@ -280,39 +199,34 @@ font-weight: 300;
 
 /*-----------*/
 
-.services1
-{
+.services1 {
 color: black;
 font-size: 20px;
 text-align: center;
 }
 
-#services
-{
+.servicepic {
 width: 510px;
 height: 340px;
 overflow: hidden;
 }
 
-.et_pb_slider:hover .et-pb-arrow-next
-{
+.et_pb_slider:hover .et-pb-arrow-next {
 text-shadow: 1px 1px 0 black, -1px -1px 0 black, 2px 1px 0 black, -2px -1px 0 black, 1px 2px 0 black, -1px -2px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px 2px 0 black, 1px -2px 0 black
 }
 
-.et_pb_slider:hover .et-pb-arrow-prev
-{
+.et_pb_slider:hover .et-pb-arrow-prev {
 text-shadow: 1px 1px 0 black, -1px -1px 0 black, 2px 1px 0 black, -2px -1px 0 black, 1px 2px 0 black, -1px -2px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px 2px 0 black, 1px -2px 0 black
+}
+
+.homealign {
+	text-align: left;
 }
 
 @media only screen and (max-width: 980px){
-#homealign {
-text-align: center !important;
+.homealign {
+text-align: center;
 }}
-
-#vcentre {
-    display: flex;
-    overflow: hidden;
-}
 
 @media only screen and ( min-width: 981px ) {
 .inheritme {
@@ -404,7 +318,7 @@ background-repeat: repeat;
 	}
 }
 
-#home-install-img {
+.home-install-img {
     height: 300px;
     overflow: hidden;
 }
