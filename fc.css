@@ -1,0 +1,505 @@
+#fade {  
+-khtml-border-radius: 5px;    /* for the rounded corners */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 1px 1px 3px grey; /* for the drop shadow */
+background-color:rgba(255,255,255,0.7);
+line-height: 16px;
+padding: 15px;
+}
+
+#title {
+font-size: 48px;
+font-weight: normal !important;
+}
+
+#subtitle {
+font-size: 20px;
+font-weight: normal !important;
+}
+
+#fadetitle {  
+-khtml-border-radius: 5px;    /* for the rounded corners */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 1px 1px 3px grey; /* for the drop shadow */
+background-color:rgba(255,255,255,0.7);
+line-height: 16px;
+padding: 15px;
+font-size: 30px;
+font-weight: normal !important;
+}
+
+#fadetitledark {  
+-khtml-border-radius: 5px;    /* for the rounded corners */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0px 0px 0px grey; /* for the drop shadow */
+background-color:rgba(0,0,0,0.7);
+line-height: 16px;
+padding: 15px;
+font-size: 30px;
+font-weight: normal !important;
+font-color: white !important;
+border-color: grey;
+border: solid 2px;
+}
+
+#titlestroke {
+color: white;
+font-size: 35px;
+text-shadow: 1px 1px 0 black, -1px -1px 0 black;
+-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: black;
+line-height: 1.2em;
+}
+
+#titlestrokeblue {
+color: blue !important;
+font-size: 35px;
+text-shadow: 1px 1px 0 black, -1px -1px 0 white;
+-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: white;
+line-height: 1.2em;
+}
+
+#titleplain {
+color: #137373;
+font-size: 35px;
+}
+
+
+#main-header {
+box-shadow: 0px 1px 8px;
+}
+
+a.et_pb_more_button {
+color: inherit;
+text-shadow: none;
+text-decoration: none;
+background-color: rgba(26, 153, 30, 0.9) !important;
+}
+
+/*DIVI CTA BUTTONS - OUTLINE STYLE*/
+
+.et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .et_pb_bg_layout_light .et_pb_newsletter_button, .et_pb_pricing_table_button {
+background-color: rgba(255, 255, 255, 0) !important;
+color: #82c0c7;
+border-color: #82c0c7;
+}
+
+.et_pb_promo_button, .et_pb_newsletter_button, a.et_pb_more_button, .et_pb_pricing_table_button {
+background-color: rgba(0, 0, 0, 0);
+border: solid 2px;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+font-family: 'ElegantIcons';
+content: attr(data-icon);
+speak: none;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+#inhome {
+font-color: black !important;
+color: white !important;
+font-size: 25px;
+}
+
+.et_pb_contact_main_title {
+color: white;
+font-color: white;
+}
+
+.et_pb_contact_submit {
+background-color: #00CEB5 !important;
+color: white !important;
+}
+
+
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+
+/*DIVI ROUNDED CORNERS - ALL MODULES*/
+
+@media only screen and ( min-width:768px) and (max-width: 980px ) {
+.et_pb_featured_table:nth-child(3), .et_pb_featured_table:nth-child(4){margin-top: 30px;}
+
+.et_pb_pricing_table:nth-child(odd){
+-webkit-border-top-left-radius:6px;
+-webkit-border-bottom-left-radius:6px;
+-moz-border-radius-topleft:6px;
+-moz-border-radius-bottomleft:6px;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+}
+
+.et_pb_pricing_table:nth-child(odd) .et_pb_pricing_heading{
+-webkit-border-top-left-radius:4px;
+-moz-border-radius-topleft:4px;
+border-top-left-radius:4px;
+}
+
+.et_pb_pricing_table:nth-child(even){
+-webkit-border-top-right-radius:6px;
+-webkit-border-bottom-right-radius:6px;
+-moz-border-radius-topright:6px;
+-moz-border-radius-bottomright:6px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+}
+
+.et_pb_pricing_table:nth-child(even) .et_pb_pricing_heading{
+-webkit-border-top-right-radius:4px;
+-moz-border-radius-topright:4px;
+border-top-right-radius:4px;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+.et_pb_pricing_table{
+-webkit-border-radius:6px;
+-moz-border-radius:6px;
+border-radius:6px;
+}
+
+.et_pb_pricing_heading, .et_pb_tab_active:first-child{
+-webkit-border-top-left-radius:4px;
+-webkit-border-top-right-radius:4px;
+-moz-border-radius-topleft:4px;
+-moz-border-radius-topright:4px;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+}
+
+}
+
+
+.et_pb_featured_table{
+-webkit-border-radius:6px;
+-moz-border-radius:6px;
+border-radius:6px;
+}
+
+.et_pb_featured_table .et_pb_pricing_heading, .et_pb_tabs_controls, .et_pb_column_1_3 .et_pb_tab_active:first-child, .et_pb_column_1_4 .et_pb_tab_active:first-child, .woocommerce-tabs ul.tabs {
+-webkit-border-top-left-radius:4px;
+-webkit-border-top-right-radius:4px;
+-moz-border-radius-topleft:4px;
+-moz-border-radius-topright:4px;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+}
+
+.et_pb_pricing_table:first-child {
+-webkit-border-top-left-radius:6px;
+-webkit-border-bottom-left-radius:6px;
+-moz-border-radius-topleft:6px;
+-moz-border-radius-bottomleft:6px;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+}
+
+.et_pb_pricing_table:first-child .et_pb_pricing_heading, .et_pb_tab_active:first-child{
+-webkit-border-top-left-radius:4px;
+-moz-border-radius-topleft:4px;
+border-top-left-radius:4px;
+}
+
+.et_pb_pricing_table:last-child {
+-webkit-border-top-right-radius:6px;
+-webkit-border-bottom-right-radius:6px;
+-moz-border-radius-topright:6px;
+-moz-border-radius-bottomright:6px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+}
+
+.et_pb_pricing_table:last-child .et_pb_pricing_heading{
+-webkit-border-top-right-radius:4px;
+-moz-border-radius-topright:4px;
+border-top-right-radius:4px;
+}
+
+.et_pb_all_tabs, .nav li ul, .et-search-form{
+-webkit-border-bottom-left-radius:6px;
+-webkit-border-bottom-right-radius:6px;
+-moz-border-radius-bottomleft:6px;
+-moz-border-radius-bottomright:6px;
+border-bottom-left-radius:6px;
+border-bottom-right-radius:6px;
+}
+
+.nav li ul ul{
+-webkit-border-bottom-right-radius:4px;
+-moz-border-radius-bottomright:4px;
+border-bottom-right-radius:4px;
+}
+
+.et_pb_main_blurb_image img.et-animated, .et_pb_counter_container, .et_pb_slider, .et_pb_testimonial, .et_pb_promo, .et_pb_image, .et_pb_portfolio_item img, .et_pb_post img, .et_pb_blog_grid .et_pb_post, .et_pb_newsletter, .et_pb_toggle, .et_pb_tabs, .et_pb_contact p input, .woocommerce ul.products li.product a img, .woocommerce-page div.product div.images img, .woocommerce-tabs, .et_overlay{
+-webkit-border-radius: 6px !important;
+-moz-border-radius: 6px !important;
+border-radius: 6px !important;
+}
+
+.et_pb_blog_grid .et_pb_post img{
+-webkit-border-top-left-radius:4px;
+-webkit-border-top-right-radius:4px;
+-moz-border-radius-topleft:4px;
+-moz-border-radius-topright:4px;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+-webkit-border-bottom-left-radius:0;
+-webkit-border-bottom-right-radius:0;
+-moz-border-radius-bottomleft:0;
+-moz-border-radius-bottomright:0;
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+}
+
+.et_pb_sum {
+font-size: 20px;
+line-height: 82px;
+font-weight: 300;
+}
+
+/*-----------*/
+
+.services1
+{
+color: black;
+font-size: 20px;
+text-align: center;
+}
+
+#services
+{
+width: 510px;
+height: 340px;
+overflow: hidden;
+}
+
+.et_pb_slider:hover .et-pb-arrow-next
+{
+text-shadow: 1px 1px 0 black, -1px -1px 0 black, 2px 1px 0 black, -2px -1px 0 black, 1px 2px 0 black, -1px -2px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px 2px 0 black, 1px -2px 0 black
+}
+
+.et_pb_slider:hover .et-pb-arrow-prev
+{
+text-shadow: 1px 1px 0 black, -1px -1px 0 black, 2px 1px 0 black, -2px -1px 0 black, 1px 2px 0 black, -1px -2px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px 2px 0 black, 1px -2px 0 black
+}
+
+@media only screen and (max-width: 980px){
+#homealign {
+text-align: center !important;
+}}
+
+#vcentre {
+    display: flex;
+    overflow: hidden;
+}
+
+@media only screen and ( min-width: 981px ) {
+.inheritme {
+  	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+}
+
+.home-top-bg {
+background-blend-mode: color;
+}
+
+.home-extra-menu {
+	margin-bottom: -105px;
+	position: relative;
+	z-index: 99991;
+}
+
+.fullwidth-menu li {
+    display: inline-block;
+    padding-right: 66px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 22px;
+    padding-top: 30px;
+	  font-weight: bold;
+}
+
+.menu-hover-1 a::before,
+.menu-hover-1 a::after {
+	position: absolute;
+	top: 28%;
+	left: 50%;
+	width: 120px;
+	height: 120px;
+	border: 2px solid rgba(255,255,255,0.4);
+	border-radius: 50%;
+	content: '';
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transform: translateX(-50%) translateY(-50%) scale(0.2);
+	-moz-transform: translateX(-50%) translateY(-50%) scale(0.2);
+	transform: translateX(-50%) translateY(-50%) scale(0.2);
+}
+
+.menu-hover-1 a::after {
+	width: 90px;
+	height: 90px;
+	border-width: 6px;
+	-webkit-transform: translateX(-50%) translateY(-50%) scale(0.8);
+	-moz-transform: translateX(-50%) translateY(-50%) scale(0.8);
+	transform: translateX(-50%) translateY(-50%) scale(0.8);
+}
+
+.menu-hover-1 a:hover::before,
+.menu-hover-1 a:hover::after,
+.menu-hover-1 a:focus::before,
+.menu-hover-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+	-moz-transform: translateX(-50%) translateY(-50%) scale(1);
+	transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+.inhome-consult-box {
+background-image:url(http://www.flippanceandcarr.com/wp-content/uploads/2016/05/7fe1be8f.png);
+background-repeat: repeat;
+	background-size: initial;
+}
+
+@media only screen and ( min-width: 981px ) {
+	.inheritme {
+		display:-ms-flexbox;
+		display:-webkit-flex;
+		display:flex;
+		-ms-flex-align:center;
+		-webkit-align-items:center;
+		-webkit-box-align:center;
+		align-items:center;
+	}
+}
+
+#home-install-img {
+    height: 300px;
+    overflow: hidden;
+}
+
+.home-install-row-2 {
+	padding: 0px;
+}
+
+@media only screen and ( max-width: 981px ) {
+	.et_pb_fullwidth_header_0 .header-content img {
+		height: 0px !important;
+	}
+	.home-extra-menu {
+visibility: hidden;
+}
+	.home-img-1 img {
+		position: absolute;
+  left: 0%;
+  top: -20%;
+	}
+	.home-install-col-1 {
+		position: relative;
+  width: 360px;
+  height: 280px;
+  overflow: hidden;
+	}
+}
+
+@media only screen and ( min-width: 776px ) {
+@media only screen and ( max-width: 981px ) {
+		.home-img-1 img {
+		position: absolute;
+  left: 0%;
+  top: -42%;
+	}
+	}
+}
+
+
+	@media only screen and ( max-width: 480px ) {
+	.home-img-1 img {
+		position: absolute;
+  left: 0%;
+  top: 10%;
+	}
+	}
+
+	@media only screen and ( max-width: 580px ) {
+		.home-install-col-1 {
+			margin-bottom: 0px !important;
+		}
+	}
+
+
+@media only screen and ( min-width: 981px ) {
+.header-content-container h1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+	}
+
+.about-image-1 {
+	border: #1B32A4;
+	border-style: solid;
+}
+
+.about-list-row {
+	padding-top: 0px;
+}
+
+.titletext2 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.subtitletext2 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.headertext2 {
+	text-align: center;
+}
+
+/* MAKE FULLWIDTH HEADER LOGO SHOW UP ON SMALLER SCREEN SIZES */
+@media only screen and (max-width: 981px) {
+	@media only screen and (min-width: 500px) {
+.et_pb_fullwidth_header_0 .header-content img {
+    height: 100% !important;
+	padding-bottom: 30px;
+}
+}
+}
+
+.et_pb_fullwidth_header_0 .header-content img {
+object-fit: contain;
+}
