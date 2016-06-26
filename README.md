@@ -1,10 +1,10 @@
 # improved-octo-pancake
-A CSS test project exploring how to use Git-managed CSS in niche applications.
+A test project exploring Git-managed CSS.
 
-Possible Tools (so far):
+Shout-outs to:
 
 Atom text editor (https://atom.io/)
 
-GIT-FTP (https://github.com/git-ftp/git-ftp)
-
 RawGit (https://rawgit.com/)
+
+Cloud9 (https://c9.io)
