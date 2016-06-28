@@ -136,7 +136,7 @@ p.contact {
   text-align: right;
 }
 
-.homefeat1 {
+div .homefeat1 {
   background: none;
   border: none;
 }
@@ -151,12 +151,9 @@ padding-top: 55px;
   padding-bottom: 0;
 }
 
-.homefeattext11 {
-color: white !important;
-}
 
 .homefeattext12 {
-color: #e2ddd8 !important;
+color: #e2ddd8;
 }
 
 .featbutrow {
