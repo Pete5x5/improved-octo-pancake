@@ -135,3 +135,39 @@ p.contact {
 .footertext {
   text-align: right;
 }
+
+.homefeat1 {
+  background: none;
+  border: none;
+}
+
+.homefeats {
+  background-blend-mode: color;
+  padding: 0;
+}
+
+.homefeattop {
+padding-top: 55px;
+  padding-bottom: 0;
+}
+
+.homefeattext11 {
+color: white !important;
+}
+
+.homefeattext12 {
+color: #e2ddd8 !important;
+}
+
+.featbutrow {
+  padding-top: 0;
+  padding-bottom: 55px;
+}
+
+.featsbut1 {
+  color: white !important;
+}
+
+.featsbut1:hover {
+  border: solid 2px white;
+}
