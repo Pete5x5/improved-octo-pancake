@@ -68,6 +68,9 @@ color: black;
   .contact2 {
 margin-left: 5vw;
 }
+.trainpic1 {
+  float: right;
+}
 }
 
 /*vvv  Class to center child elements vertically  vvv*/
@@ -167,4 +170,34 @@ color: #e2ddd8;
 
 .featsbut1:hover {
   border: solid 2px white;
+}
+
+.pagetitlebg1 {
+background-color: #A6DFEF;
+  margin: 30px;
+  padding: 0;
+}
+
+.minimenu {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pagetitle1 {
+  text-align: center;
+}
+
+.contitle, .traintitle {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.trainpic1{
+  width: 350px;
+  height: auto;
+}
+
+.instasocial1 {
+  color: darkred;
 }
