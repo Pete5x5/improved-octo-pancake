@@ -1,0 +1,45 @@
+#footer-bottom {
+display: none;
+}
+
+@media only screen and ( min-width: 981px ) {
+	.inheritme {
+		display:-ms-flexbox;
+		display:-webkit-flex;
+		display:flex;
+		-ms-flex-align:center;
+		-webkit-align-items:center;
+		-webkit-box-align:center;
+		align-items:center;
+	}
+}
+
+/*Make all smaller titles title1 and larger ones title2 */
+
+.title1 {
+	font-size: 8vw !important;
+}
+
+.title2 {
+	font-size: 5vw !important;
+}
+
+.title3 {
+	font-size: 4vw !important;
+}
+
+.titletext {
+color: rgb(245, 157, 187) !important;
+font-size: 6vw;
+	text-align: center;
+}
+
+@media only screen and ( max-width: 980px ) {
+.botpad {
+	padding-bottom: 0px !important;
+}
+}
+
+.rsvppad {
+padding-bottom: 30px;
+}
