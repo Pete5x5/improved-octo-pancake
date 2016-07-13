@@ -9,7 +9,6 @@
     "block-closing-brace-newline-before": "always",
     "block-closing-brace-space-after": "never-single-line",
     "block-closing-brace-space-before": "never",
-    "color-hex-case": "lower"|"upper",
     "color-no-invalid-hex": true,
     "font-family-name-quotes": "always-where-required",
     "function-calc-no-unspaced-operator": true,
@@ -21,7 +20,7 @@
     "media-feature-name-no-vendor-prefix": true,
     "media-feature-no-missing-punctuation": true,
     "media-query-list-opening-parenthesis-space-after": "never",
-    "media-query-list-closing-parenthesis-space-before": "never"
+    "media-query-list-closing-parenthesis-space-before": "never",
     "no-browser-hacks": true,
     "no-descending-specificity": true,
     "no-duplicate-selectors": true,
