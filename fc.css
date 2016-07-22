@@ -18,19 +18,6 @@ background-color: rgba(0, 0, 0, 0);
 border: solid 2px;
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-[data-icon]:before {
-font-family: 'ElegantIcons';
-content: attr(data-icon);
-speak: none;
-font-weight: normal;
-font-variant: normal;
-text-transform: none;
-line-height: 1;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
-
 .inhometext {
 color: white;
 font-size: 25px;
@@ -38,7 +25,6 @@ font-size: 25px;
 
 .et_pb_contact_main_title {
 color: white;
-font-color: white;
 }
 
 .et_pb_contact_submit {
@@ -56,7 +42,7 @@ color: white !important;
 
 /*DIVI ROUNDED CORNERS - ALL MODULES*/
 
-@media only screen and ( min-width:768px) and (max-width: 980px ) {
+@media only screen and (min-width:768px) and (max-width: 980px) {
 .et_pb_featured_table:nth-child(3), .et_pb_featured_table:nth-child(4){margin-top: 30px;}
 
 .et_pb_pricing_table:nth-child(odd){
@@ -116,7 +102,7 @@ border-top-right-radius:4px;
 border-radius:6px;
 }
 
-.et_pb_featured_table .et_pb_pricing_heading, .et_pb_tabs_controls, .et_pb_column_1_3 .et_pb_tab_active:first-child, .et_pb_column_1_4 .et_pb_tab_active:first-child, .woocommerce-tabs ul.tabs {
+.et_pb_featured_table .et_pb_pricing_heading, .et_pb_tabs_controls, .et_pb_column_1_3 .et_pb_tab_active:first-child, .et_pb_column_1_4 .et_pb_tab_active:first-child, .woocommerce-tabs .tabs {
 -webkit-border-top-left-radius:4px;
 -webkit-border-top-right-radius:4px;
 -moz-border-radius-topleft:4px;
@@ -170,7 +156,7 @@ border-bottom-right-radius:6px;
 border-bottom-right-radius:4px;
 }
 
-.et_pb_main_blurb_image img.et-animated, .et_pb_counter_container, .et_pb_slider, .et_pb_testimonial, .et_pb_promo, .et_pb_image, .et_pb_portfolio_item img, .et_pb_post img, .et_pb_blog_grid .et_pb_post, .et_pb_newsletter, .et_pb_toggle, .et_pb_tabs, .et_pb_contact p input, .woocommerce ul.products li.product a img, .woocommerce-page div.product div.images img, .woocommerce-tabs, .et_overlay{
+.et_pb_main_blurb_image .et-animated, .et_pb_counter_container, .et_pb_slider, .et_pb_testimonial, .et_pb_promo, .et_pb_image, .et_pb_portfolio_item img, .et_pb_post img, .et_pb_blog_grid .et_pb_post, .et_pb_newsletter, .et_pb_toggle, .et_pb_tabs, .et_pb_contact p input, .woocommerce .products li.product a img, .woocommerce-page div.product .images img, .woocommerce-tabs, .et_overlay{
 -webkit-border-radius: 6px !important;
 -moz-border-radius: 6px !important;
 border-radius: 6px !important;
@@ -228,7 +214,7 @@ text-shadow: 1px 1px 0 black, -1px -1px 0 black, 2px 1px 0 black, -2px -1px 0 bl
 text-align: center;
 }}
 
-@media only screen and ( min-width: 981px ) {
+@media only screen and (min-width: 981px) {
 .inheritme {
   	display: -ms-flexbox;
 	display: -webkit-flex;
@@ -269,6 +255,7 @@ background-blend-mode: color;
 	left: 50%;
 	width: 120px;
 	height: 120px;
+	border: 2px solid rgb(255,255,255);
 	border: 2px solid rgba(255,255,255,0.4);
 	border-radius: 50%;
 	content: '';
@@ -303,10 +290,10 @@ background-blend-mode: color;
 .inhome-consult-box {
 background-image:url(http://www.flippanceandcarr.com/wp-content/uploads/2016/05/7fe1be8f.png);
 background-repeat: repeat;
-	background-size: initial;
+background-size: initial;
 }
 
-@media only screen and ( min-width: 981px ) {
+@media only screen and (min-width: 981px) {
 	.inheritme {
 		display:-ms-flexbox;
 		display:-webkit-flex;
@@ -327,7 +314,7 @@ background-repeat: repeat;
 	padding: 0px;
 }
 
-@media only screen and ( max-width: 981px ) {
+@media only screen and (max-width: 981px) {
 	.et_pb_fullwidth_header_0 .header-content img {
 		height: 0px !important;
 	}
@@ -347,18 +334,16 @@ visibility: hidden;
 	}
 }
 
-@media only screen and ( min-width: 776px ) {
-@media only screen and ( max-width: 981px ) {
+@media only screen and (min-width: 776px) and (max-width: 981px) {
 		.home-img-1 img {
 		position: absolute;
   left: 0%;
   top: -42%;
 	}
-	}
 }
 
 
-	@media only screen and ( max-width: 480px ) {
+	@media only screen and (max-width: 480px) {
 	.home-img-1 img {
 		position: absolute;
   left: 0%;
@@ -366,14 +351,14 @@ visibility: hidden;
 	}
 	}
 
-	@media only screen and ( max-width: 580px ) {
+	@media only screen and (max-width: 580px) {
 		.home-install-col-1 {
 			margin-bottom: 0px !important;
 		}
 	}
 
 
-@media only screen and ( min-width: 981px ) {
+@media only screen and (min-width: 981px) {
 .header-content-container h1 {
 	font-size: 30px;
 	font-weight: bold;
@@ -405,12 +390,10 @@ visibility: hidden;
 }
 
 /* MAKE FULLWIDTH HEADER LOGO SHOW UP ON SMALLER SCREEN SIZES */
-@media only screen and (max-width: 981px) {
-	@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width: 981px) {
 .et_pb_fullwidth_header_0 .header-content img {
     height: 100% !important;
 	padding-bottom: 30px;
-}
 }
 }
 
