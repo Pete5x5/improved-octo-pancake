@@ -1,3 +1,18 @@
-#main-footer {
+#main-footer, #logo {
 	display: none;
+}
+
+.soontitle, #countdown {
+	font-family: 'Permanent Marker' !important;
+	font-weight: 100 !important;
+}
+
+.soontitle {
+	font-size: 4em;
+}
+
+@media only screen and (max-width: 431px) {
+	.soontitle {
+	    font-size: 2em;
+}
 }
