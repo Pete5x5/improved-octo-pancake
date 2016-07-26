@@ -74,7 +74,7 @@ margin-left: 5vw;
 }
 
 /*vvv  Class to center child elements vertically  vvv*/
-@media only screen and ( min-width: 981px ) {
+@media only screen and (min-width: 981px) {
 .inheritme {
   	display: -ms-flexbox;
 	display: -webkit-flex;
@@ -208,4 +208,17 @@ background-color: #A6DFEF;
 
 .servicesect1 {
   padding-top: 0;
+}
+
+.exclaimbg {
+background-color: #D1E5AA;
+}
+
+.exclaimtext {
+  color: black;
+  font-size: 18px;
+}
+
+p .exclaim {
+  font-size: 22px;
 }
