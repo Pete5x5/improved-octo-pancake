@@ -105,7 +105,7 @@ visibility: hidden;
 }
 
 /* MAKE FULLWIDTH HEADER LOGO SHOW UP ON SMALLER SCREEN SIZES */
-@media only screen and (min-width: 500px) and (max-width: 981px) {
+@media only screen and (min-width: 250px) and (max-width: 981px) {
 .et_pb_fullwidth_header_0 .header-content img {
     height: 100% !important;
 	padding-bottom: 30px;
