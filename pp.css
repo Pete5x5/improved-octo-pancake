@@ -1,4 +1,4 @@
-#main-footer, #logo {
+#main-footer {
 	display: none;
 }
 
@@ -112,9 +112,9 @@ visibility: hidden;
 }
 }
 
-.et_pb_fullwidth_header_0 .header-content img {
+/* .et_pb_fullwidth_header_0 .header-content img {
 object-fit: contain;
-}
+} */
 
 .taglinetext {
 	font-size: 24px;
@@ -122,4 +122,38 @@ object-fit: contain;
 	font-style: italic;
 	margin-top: 30px;
 	text-transform: capitalize;
+}
+
+.newfooter1 {
+	background-color: darkgrey;
+}
+
+.homegallery2 {
+display: none !important;
+}
+
+/* FIX GALLERY ISSUE WHERE IT WOULD PUT THE 4TH IMAGE ON ITS OWN LINE */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+.homegallery1 {
+	display: none !important;
+}
+	.homegallery2 {
+		display: block !important;
+	}
+}
+
+.header-content {
+padding-top: 65vh !important;
+}
+
+.scroll-down {
+	color: #577600 !important;
+}
+
+.footertext {
+color: #003355;
+}
+
+.footer2:hover, .footer3:hover, .footer4:hover {
+color: #577600;
 }
