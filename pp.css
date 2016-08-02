@@ -157,3 +157,13 @@ color: #003355;
 .footer2:hover, .footer3:hover, .footer4:hover {
 color: #577600;
 }
+
+@media only screen and (max-width: 980px) {
+	.header-content {
+		width: auto !important;
+		height: 82vh !important;
+	}
+	.scroll-down {
+	font-size: 2.5em !important;
+}
+}
