@@ -77,18 +77,18 @@
 		height: 0px !important;
 	}
 	.home-extra-menu {
-visibility: hidden;
+		visibility: hidden;
 }
 	.home-img-1 img {
 		position: absolute;
-  left: 0%;
-  top: -20%;
+  		left: 0%;
+  		top: -20%;
 	}
 	.home-install-col-1 {
 		position: relative;
-  width: 360px;
-  height: 280px;
-  overflow: hidden;
+  		width: 360px;
+  		height: 280px;
+ 		 overflow: hidden;
 	}
 }
 
@@ -129,7 +129,7 @@ object-fit: contain;
 }
 
 .homegallery2 {
-display: none !important;
+	display: none !important;
 }
 
 /* FIX GALLERY ISSUE WHERE IT WOULD PUT THE 4TH IMAGE ON ITS OWN LINE */
@@ -143,7 +143,7 @@ display: none !important;
 }
 
 .header-content {
-padding-top: 65vh !important;
+	padding-top: 65vh !important;
 }
 
 .scroll-down {
@@ -151,11 +151,27 @@ padding-top: 65vh !important;
 }
 
 .footertext {
-color: #003355;
+	color: #003355;
 }
 
 .footer2:hover, .footer3:hover, .footer4:hover {
-color: #577600;
+	color: #577600;
+}
+
+.testpic {
+	float: left;
+	margin: -5px 40px 40px 100px;
+	width: 120px;
+	height: 120px;
+}
+
+.testsubhead {
+	font-size: 14px;
+	color: lightgrey;
+}
+
+.testname {
+	padding-bottom: 0;
 }
 
 @media only screen and (max-width: 980px) {
@@ -164,6 +180,47 @@ color: #577600;
 		height: 82vh !important;
 	}
 	.scroll-down {
-	font-size: 2.5em !important;
+		font-size: 2.5em !important;
+	}
+	.testpic {
+		display: none;
+	}
+	.testsubhead, .testname, .testlgtxt {
+		text-align: center;
+	}
+	.gallerysect {
+		margin-bottom: 42px;
+	}
 }
+
+.gallerysect {
+	margin-top: 42px;
+}
+
+.testimonialsect1 {
+  	padding: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  	.testimonialsect2 {
+   		padding: 0;
+   	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+	.testimonialsect2 {
+   		padding: 64px;
+   	}
+}
+
+.homeicon {
+	font-size: 64px !important;	
+}
+
+.workbutton {
+	color: #003355 !important;
+}
+
+.home-extra-menu a {
+	color: #003355 !important;
 }
