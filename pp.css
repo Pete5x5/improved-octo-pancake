@@ -222,7 +222,7 @@ object-fit: contain;
 }
 
 .home-extra-menu a {
-	color: #003355 !important;
+	color: white !important;
 }
 
 .homecontacttext {
@@ -288,4 +288,16 @@ color: white;
 
 .socialicons a:hover {
 color: #577600;
+}
+
+.socialicons2 {
+font-size: 30px;
+}
+
+.socialicons2 a {
+color: #577600;
+}
+
+.socialicons2 a:hover {
+color: #003355;
 }
