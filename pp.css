@@ -151,7 +151,7 @@ object-fit: contain;
 }
 
 .footertext {
-	color: #003355;
+	color: white;
 }
 
 .footer2:hover, .footer3:hover, .footer4:hover {
@@ -223,4 +223,69 @@ object-fit: contain;
 
 .home-extra-menu a {
 	color: #003355 !important;
+}
+
+.homecontacttext {
+	font-size: 42px;
+	color: white;	
+	font-weight: 700;
+}
+
+.homecontactphone, .homecontactemail {
+	font-size: 24px;
+}
+
+.homeservicesitem {
+	font-size: 24px;
+	text-align: left;
+}
+
+.homeservicesicon {
+	color: #577600;
+}
+
+.homeservicestitle {
+	font-size: 30px;	
+	text-align: right;
+}
+
+.contactfootersect {
+	background: #003355;
+}
+
+.homecontactbut {
+	color: white;
+	font-size: 30px;
+}
+
+.newfooter21 {
+	padding-bottom: 0;
+}
+
+.servicesbut {
+	color: #003355 !important;
+}
+
+@media only screen and (max-width: 980px) {
+	.homeservicesitem {
+		text-align: center;
+}
+	.homeservicestitle {	
+		text-align: center;
+}
+	.homeservicestext {
+		text-align: center;
+	}
+}
+
+.socialicons {
+font-size: 30px;
+}
+
+.socialicons a {
+color: white;
+}
+
+.socialicons a:hover {
+color: #577600;
 }
