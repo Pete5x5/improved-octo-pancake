@@ -228,10 +228,6 @@ text-align: center;
 }
 }
 
-.home-top-bg {
-background-blend-mode: color;
-}
-
 .home-extra-menu {
 	margin-bottom: -105px;
 	position: relative;
@@ -290,7 +286,7 @@ background-blend-mode: color;
 .inhome-consult-box {
 background-image:url(http://www.flippanceandcarr.com/wp-content/uploads/2016/05/7fe1be8f.png);
 background-repeat: repeat;
-background-size: initial;
+background-size: contain;
 }
 
 @media only screen and (min-width: 981px) {
@@ -397,6 +393,3 @@ visibility: hidden;
 }
 }
 
-.et_pb_fullwidth_header_0 .header-content img {
-object-fit: contain;
-}
