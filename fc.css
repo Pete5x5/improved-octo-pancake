@@ -412,20 +412,13 @@ visibility: hidden;
 	font-weight: 700;
 }
 
-.et_pb_toggle_open {
+.et_pb_toggle_open, .et_pb_toggle_close {
 	background-color: white;
+	border-color: #1F1F1F;
 }
 
-.et_pb_toggle_open .et_pb_toggle_title {
-	color: #1A991E !important;
-}
-
-.et_pb_toggle_close {
-	background-color: #666666;	
-}
-
-.et_pb_toggle_close .et_pb_toggle_title {
-	color: white !important;
+.et_pb_toggle_title, .et_pb_toggle_title:before {
+	color: #1F1F1F !important;
 }
 
 .prodimgcen {
