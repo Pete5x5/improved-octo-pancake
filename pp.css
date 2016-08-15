@@ -144,6 +144,7 @@ object-fit: contain;
 
 .header-content {
 	padding-top: 65vh !important;
+	margin-bottom: calc(100px - 8vh) !important;
 }
 
 .scroll-down {
