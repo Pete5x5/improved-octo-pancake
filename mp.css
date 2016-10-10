@@ -139,3 +139,29 @@ footer p {
   text-align: center !important;
   font-weight: 300;
 }
+
+@media only screen and (max-width: 653px) {
+  .home-col-6-L {
+    display: none;
+  }
+  .home-text-6-1, .home-text-6-2 {
+    text-align: center;
+  }
+}
+
+.testi-text-1-1 {
+  font-size: 100px !important;
+  color: white;
+  line-height: 70px;
+}
+
+.testi-text-d1-1 p {
+  font-size: 26px !important;
+  color: white;
+}
+
+.testi-text-1-2 {
+  font-size: 30px !important;
+  font-weight: 300;
+  text-align: center;
+}
