@@ -1,0 +1,141 @@
+/*vvv  Class to center child elements vertically  vvv*/
+@media only screen and (min-width: 981px) {
+.inheritme {
+  	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+}
+/*^^^  Class to center child elements vertically  ^^^*/
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: grey !important;
+}
+
+.home-box-1 {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.home-text-1 {
+  font-size: 40px !important;
+}
+
+.home-box-1 .uncont {
+  text-align: center !important;
+}
+
+.home-text-2 {
+  font-size: 70px !important;
+  line-height: 60px;
+}
+
+.home-box-2 .col-lg-8 {
+  width: 100%;
+  /* INHERITME */
+  display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+.home-video-box-1 {
+  height: 100vh;
+}
+
+.home-box-3 .uncont {
+  text-align: center !important;
+}
+
+.home-text-3-2 {
+  font-size: 185px !important;
+  margin-top: 0;
+}
+
+.home-text-d3-2 {
+  margin-top: 0 !important;
+}
+
+.home-box-3 {
+  padding-top: 50px;
+}
+
+.home-box-5 .uncont {
+  text-align: center !important;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.home-text-5-1 {
+  font-size: 155px !important;
+  line-height: 150px;
+}
+
+.home-text-5-2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.home-text-d5-2 {
+  margin-top: 0 !important;
+}
+.footer-last {
+  display: none;
+}
+
+footer p {
+  text-align: center;
+}
+
+.home-box-6 .row-inner {
+  /* INHERITME */
+  display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+.home-text-6-1 {
+  font-size: 60px !important;
+}
+
+.home-text-6-2 {
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.home-text-d6-2 {
+  margin-top: 0 !important;
+}
+
+.home-pic-6 {
+  max-height: 300px !important;
+  overflow: hidden;
+}
+
+.home-text-7 {
+  text-align: center !important;
+  font-weight: 300;
+}
