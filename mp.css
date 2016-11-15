@@ -165,3 +165,44 @@ footer p {
   font-weight: 300;
   text-align: center;
 }
+
+.four-text-1 {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.heading-text .beyond-text-2 {
+  font-size: 60px;
+}
+
+.beyond-text-c2 .heading-text {
+  text-align: center;
+  display: inherit !important;
+}
+
+p, h1, h2, h3, b, i, a {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.text-top-reduced p {
+  color: black;
+  font-weight: 700;
+}
+
+.testi-text-1-2 {
+  font-size: 20px !important;
+  color: white;
+/*   line-height: .2; */
+}
+
+.testi-text-d1-2 {
+  text-align: center;
+  display: inherit !important;
+}
+
+
+.testi-box-2 .row {
+  padding-top: 0 !important;
+  padding-bottom: 22px !important;
+}
