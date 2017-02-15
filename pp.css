@@ -322,3 +322,19 @@ color: #003355;
 .testsect1 {
 	padding-top: 80px;
 }
+
+.homeiconall {
+	color: #bf1e2d;
+}
+
+.icontext {
+	color: black;
+}
+
+.homedivide1:before {
+	border-top-width: 2px;
+}
+
+.iconsect1 {
+	padding-bottom: 0;
+}
