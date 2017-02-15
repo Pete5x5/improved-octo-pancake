@@ -147,7 +147,7 @@ object-fit: contain;
 }
 
 .scroll-down {
-	color: #577600 !important;
+	color: #bf1e2d !important;
 }
 
 .footertext {
@@ -181,7 +181,7 @@ object-fit: contain;
 @media only screen and (max-width: 980px) {
 	.header-content {
 		width: auto !important;
-		height: 82vh !important;
+		height: auto !important;
 	}
 	.scroll-down {
 		font-size: 2.5em !important;
@@ -341,4 +341,14 @@ color: #003355;
 
 .conicon111, .conicon112 {
 	color: #bf1e2d
+}
+
+.mobile_menu_bar:before {
+	color: #bf1e2d;
+}
+
+@media only screen and (max-width: 464px) {
+	.homecontactemail {
+		font-size: 18px;
+}
 }
