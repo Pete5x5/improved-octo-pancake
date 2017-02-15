@@ -299,7 +299,7 @@ font-size: 30px;
 }
 
 .socialicons2 a {
-color: #577600;
+color: #bf1e2d;
 }
 
 .socialicons2 a:hover {
@@ -337,4 +337,8 @@ color: #003355;
 
 .iconsect1 {
 	padding-bottom: 0;
+}
+
+.conicon111, .conicon112 {
+	color: #bf1e2d
 }
