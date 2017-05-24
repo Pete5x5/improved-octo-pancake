@@ -426,3 +426,32 @@ visibility: hidden;
 	margin-right: auto;
 	margin-left: auto;
 }
+
+.pgtitle {
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	background: #226BD8;
+  padding-top: 10px;
+	padding-bottom: 10px !important;
+ 	width: 200px;
+ 	border: #226BD8 solid 3px;
+ 	border-radius:10px;
+ 	margin: 15px;
+ 	box-shadow: 0px 0px 0px 3px #fff inset;
+}
+
+.pgtextbox {
+	display: table;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.titlebox1 {
+	padding: 0;
+}
+
+.pgbox2 {
+padding: 0;
+}
