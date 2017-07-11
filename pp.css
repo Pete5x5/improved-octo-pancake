@@ -352,3 +352,9 @@ color: #003355;
 		font-size: 18px;
 }
 }
+
+@media only screen and (max-width: 500px) {
+	.home-top-bg {
+		display: none;
+}
+}
