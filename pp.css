@@ -291,7 +291,7 @@ color: white;
 }
 
 .socialicons a:hover {
-color: #577600;
+color: #2E2E2E;
 }
 
 .socialicons2 {
@@ -357,4 +357,12 @@ color: #003355;
 	.home-top-bg {
 		display: none;
 }
+}
+
+.homemobilebut {
+	color: #BF1E2D !important;
+}
+
+.homemobilesect,.homemobilecont {
+	padding-top: 0;
 }
