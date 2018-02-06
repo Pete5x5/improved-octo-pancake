@@ -176,6 +176,7 @@ object-fit: contain;
 
 .testname, .testsubhead {
 	text-align: right;
+	color: white;
 }
 
 @media only screen and (max-width: 980px) {
@@ -198,11 +199,16 @@ object-fit: contain;
 }
 
 .gallerysect {
-	margin-top: 42px;
+	margin-top: 0;
 }
 
 .testimonialsect1 {
   	padding: 0;
+	background-blend-mode: multiply;
+}
+
+#testimonials {
+	background-color: #770404 !important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -242,6 +248,7 @@ object-fit: contain;
 .homeservicesitem {
 	font-size: 24px;
 	text-align: left;
+	color: #333333;
 }
 
 .homeservicesicon {
@@ -249,8 +256,14 @@ object-fit: contain;
 }
 
 .homeservicestitle {
-	font-size: 30px;	
+	font-size: 35px;	
 	text-align: right;
+	color: #bf1e2e;
+}
+
+.homeservicestext {
+	color: #333333;
+	font-size: 16px;
 }
 
 .contactfootersect {
@@ -271,8 +284,8 @@ object-fit: contain;
 }
 
 @media only screen and (max-width: 980px) {
-	.homeservicesitem {
-		text-align: center;
+	.hc21 {
+		padding-left: 33vw;
 }
 	.homeservicestitle {	
 		text-align: center;
@@ -308,11 +321,12 @@ color: #003355;
 
 .testlgtxt {
 	font-size: 20px;
+	color: white;
 }
 
 .testtitle2 {
 	font-size: 36px;
-	color: black;
+	color: white;
 }
 
 .testsect2 {
@@ -336,7 +350,7 @@ color: #003355;
 }
 
 .iconsect1 {
-	padding-bottom: 0;
+	padding: 0 !important;
 }
 
 .conicon111, .conicon112 {
@@ -365,4 +379,48 @@ color: #003355;
 
 .homemobilesect,.homemobilecont {
 	padding-top: 0;
+}
+
+/* additions below for new home page */
+
+.hp1 {
+	height: 50vh;
+}
+
+.titlefont1 {
+	color: #333333;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.hp1 {
+	height: 50vh;
+}
+
+.hp2 {
+    
+}
+
+.icontitle {
+	font-size: 20px;
+	font-weight: bolder;
+	color: #333333;
+}
+
+.hdall {
+	border-top: 2px solid #bf1e2d;
+  	width: 40px;
+	color: red;
+	margin: 0 auto;
+	height: 16px;
+}
+
+.iccall {
+	margin-bottom: 15px !important;
+}
+
+#work {
+	background-image: none !important;
+	padding-top: 20px;
 }
