@@ -151,11 +151,9 @@ object-fit: contain;
 }
 
 .footertext {
-	color: white;
-}
-
-.footer2:hover, .footer3:hover, .footer4:hover {
-	color: #577600;
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans";
 }
 
 .testpic {
@@ -199,7 +197,8 @@ object-fit: contain;
 }
 
 .gallerysect {
-	margin-top: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .testimonialsect1 {
@@ -258,16 +257,12 @@ object-fit: contain;
 .homeservicestitle {
 	font-size: 35px;	
 	text-align: right;
-	color: #bf1e2e;
+	color: #bf1e2d;
 }
 
 .homeservicestext {
 	color: #333333;
 	font-size: 16px;
-}
-
-.contactfootersect {
-	background: #003355;
 }
 
 .homecontactbut {
@@ -289,6 +284,7 @@ object-fit: contain;
 }
 	.homeservicestitle {	
 		text-align: center;
+		line-height: 1;
 }
 	.homeservicestext {
 		text-align: center;
@@ -423,4 +419,204 @@ color: #003355;
 #work {
 	background-image: none !important;
 	padding-top: 20px;
+}
+
+.servicesbut,.homegallerybut {
+	color: #bf1e2d !important;
+}
+
+.servicesbut:hover,.homegallerybut:hover {
+	background-color: #bf1e2d !important;
+	color: white !important;
+}
+
+.et-fixed-header #top-menu a:hover {
+color: #bf1e2d !important;
+}
+
+#top-menu a:hover {
+color: #bf1e2d !important;
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1130px) {
+.menu-item a {
+font-size: 15px !important;
+}
+}
+
+.homegallerytitle {
+	font-size: 35px;	
+	text-align: left;
+    color: #bf1e2d;
+    font-weight: 400;
+}
+
+.homegallerytext {
+	color: #333333;
+	font-size: 16px;
+	font-family: "Open Sans"
+}
+
+@media only screen and (max-width: 980px) {
+    .homegallerytitle {
+        text-align: center;
+    }
+    
+    .homegallerytext {
+        text-align: center;
+    }
+}
+
+
+.contactfootersect {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #1F1F1F;
+}
+
+.footsoc1 {
+	padding: 0 !important;
+	margin: 0 !important;
+	background: #000;
+}
+
+.ftln {
+    border-top: 2px solid #bf1e2d;
+  	width: 130px;
+	color: red;
+	margin: 0 auto;
+	height: 1px;
+}
+
+.socialicons a:hover {
+	color: #bf1e2d !important;
+}
+
+.servmobbut1,.servmobbut2 {
+	padding-top: 0;
+}
+
+.homedivide2 {
+margin-top: 90px !important;
+}
+
+@media only screen and (min-width: 768px) {
+.servmobbut1,.servmobbut2 {
+	padding: 0 !important;
+}
+.homedivide2 {
+	margin-top: 0;
+	display:none;
+}
+}
+
+.homedivide2:before {
+	border-top-width: 2px;
+}
+
+.testpic {
+	display: none;
+}
+
+.slt2,.slt3 {
+	text-align: right;
+}
+
+.slt2 {
+	padding-bottom: 0;
+}
+
+.slt3 {
+	font-size: 13px;
+}
+
+#testimonials {
+	padding: 0;
+}
+
+.hometestbut {
+    color: white !important;
+    background-color: #1f1f1f;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.hometestbut:hover {
+    color: #1f1f1f !important;
+    background-color: white !important;
+}
+
+#testslide1 {
+	margin-bottom: 0;
+}
+
+#testimonials .et_pb_row_4 {
+	padding-top: 0 !important;
+}
+
+/* GALLERY PAGE */
+
+.galr1 {
+    padding-top: 0 !important;
+}
+
+/* OTHER PAGES */
+
+.titlefont1 {
+	font-family: "Open Sans";
+	font-size: 36px;
+	color: #1f1f1f;
+}
+
+.subfont1 {
+	font-family: "Open Sans";
+	font-size: 24px;
+	color: #1f1f1f;
+	font-weight: 600;
+}
+
+.subfont2 {
+	font-family: "Open Sans";
+	font-size: 16px;
+	color: #bf1e2d;
+	font-weight: 600;
+}
+
+.bodyfont1 {
+	font-family: "Open Sans";
+	font-size: 14px;
+	color: #1f1f1f;
+	font-weight: 500;
+}
+
+.bodyfont2 {
+	font-family: "Open Sans";
+	font-size: 14px;
+	color: #bf1e2d;
+	font-weight: 600;
+	text-align: right;
+}
+
+.faq1:before {
+	border-top-width: 2px;
+}
+
+.faq1 {
+	color: #1f1f1f;
+}
+
+.et_pb_toggle_title {
+	color: #1f1f1f !important;
+}
+
+.faq2 {
+	background-color: white;
+}
+
+.faq2:hover {
+	background-color: #ccc;
+}
+
+.et_pb_toggle_title:before {
+	color: #bf1e2d !important;
 }
