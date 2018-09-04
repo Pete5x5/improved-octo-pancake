@@ -216,7 +216,7 @@ text-align: center;
 
 @media only screen and (min-width: 981px) {
 .inheritme {
-  	display: -ms-flexbox;
+		display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
 
@@ -235,13 +235,13 @@ text-align: center;
 }
 
 .fullwidth-menu li {
-    display: inline-block;
-    padding-right: 66px;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding-left: 22px;
-    padding-top: 30px;
-	  font-weight: bold;
+	display: inline-block;
+	padding-right: 66px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-left: 22px;
+	padding-top: 30px;
+		font-weight: bold;
 }
 
 .menu-hover-1 a::before,
@@ -302,8 +302,8 @@ background-size: contain;
 }
 
 .home-install-img {
-    height: 300px;
-    overflow: hidden;
+	height: 300px;
+	overflow: hidden;
 }
 
 .home-install-row-2 {
@@ -319,22 +319,22 @@ visibility: hidden;
 }
 	.home-img-1 img {
 		position: absolute;
-  left: 0%;
-  top: -20%;
+	left: 0%;
+	top: -20%;
 	}
 	.home-install-col-1 {
 		position: relative;
-  width: 360px;
-  height: 280px;
-  overflow: hidden;
+	width: 360px;
+	height: 280px;
+	overflow: hidden;
 	}
 }
 
 @media only screen and (min-width: 776px) and (max-width: 981px) {
 		.home-img-1 img {
 		position: absolute;
-  left: 0%;
-  top: -42%;
+	left: 0%;
+	top: -42%;
 	}
 }
 
@@ -342,8 +342,8 @@ visibility: hidden;
 	@media only screen and (max-width: 480px) {
 	.home-img-1 img {
 		position: absolute;
-  left: 0%;
-  top: 10%;
+	left: 0%;
+	top: 10%;
 	}
 	}
 
@@ -388,7 +388,7 @@ visibility: hidden;
 /* MAKE FULLWIDTH HEADER LOGO SHOW UP ON SMALLER SCREEN SIZES */
 @media only screen and (min-width: 500px) and (max-width: 981px) {
 .et_pb_fullwidth_header_0 .header-content img {
-    height: 100% !important;
+	height: 100% !important;
 	padding-bottom: 30px;
 }
 }
@@ -399,9 +399,11 @@ visibility: hidden;
 }
 
 .productstitle1 {
-	color: white;
+	color: black;
 	font-size: 32px;
 	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .et_pb_toggle_title {
@@ -432,13 +434,13 @@ visibility: hidden;
 	text-align: center;
 	font-size: 28px;
 	background: #226BD8;
-  padding-top: 10px;
+	padding-top: 10px;
 	padding-bottom: 10px !important;
- 	width: 200px;
- 	border: #226BD8 solid 3px;
- 	border-radius:10px;
- 	margin: 15px;
- 	box-shadow: 0px 0px 0px 3px #fff inset;
+		width: 200px;
+		border: #226BD8 solid 3px;
+		border-radius:10px;
+		margin: 15px;
+		box-shadow: 0px 0px 0px 3px #fff inset;
 }
 
 .pgtextbox {
@@ -454,4 +456,21 @@ visibility: hidden;
 
 .pgbox2 {
 padding: 0;
+}
+
+.prodsect1 {
+	padding-top: 3vh !important;
+	padding-bottom: 0 !important;
+}
+
+.prodsect2 {
+	padding-top: 0 !important;
+	padding-bottom: 2vh !important;
+}
+
+.prodsub1 {
+	color: black;
+	font-size: 18px !important;
+	font-weight: bold;
+	text-transform: uppercase;
 }
