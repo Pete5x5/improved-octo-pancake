@@ -239,13 +239,3 @@
     padding-top: 0;
   }
   
-  /** RENOVATION CSS - OLD HEADER: The hair of your dreams starts here.**/
-  .homeheader1 .header-content-container {
-    padding-top: calc(140px - 8vw);
-  }
-  
-  .header-content h1 {
-    font-size: 35px;
-    font-family: sans-serif;
-  }
-  
