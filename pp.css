@@ -682,7 +682,7 @@ color: white;
 }
 	
 @media only screen and (max-width: 459px) {
-	.hometopbut  {
+	.hometopbut, .homecontactbut  {
 	font-size: 20px !important;
 	}
 }
