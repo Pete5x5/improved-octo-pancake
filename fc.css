@@ -149,7 +149,12 @@
 	color: #444444
 }
 
-/* MEDIA QUERIES */
+.et-fixed-header #top-menu li.current-menu-item.current_page_item a, .current_page_item a {
+	color: #01468d !important;
+}
+
+
+/* ----- MEDIA QUERIES ----- */
 
 @media only screen and (max-width: 479px) {
 	.hometopbut, .homecontactbut, .titlefont1  {
