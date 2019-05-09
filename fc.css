@@ -153,6 +153,54 @@
 	color: #01468d !important;
 }
 
+.brandtitle {
+	font-weight: 700;
+	font-size: 24px;
+	color: #454545;
+	line-height: 0.1;
+}
+
+.brandsubtitle {
+	font-weight: 700;
+	font-size: 16px;
+	color: #01468d;
+	line-height: 0.1;
+}
+
+.brandtext {
+	color: #454545;
+	font-size: 14px;
+}
+
+table {
+	font-size: 15px;
+	color: #454545;
+}
+
+.tvsize {
+	font-weight: bold;
+}
+
+.stock1 {
+	color: green;
+	font-weight: bold;
+}
+
+.stock2 {
+	color: red;
+	font-weight: bold;
+}
+
+.stock3 {
+	color: orange;
+	font-weight: bold;
+}
+
+.stock4 {
+	color: purple;
+	font-weight: bold;
+}
+
 
 /* ----- MEDIA QUERIES ----- */
 
