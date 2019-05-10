@@ -221,6 +221,10 @@ table {
 	border-color: #454545 !important;
 }
 
+.chartsm {
+	display: none;
+}
+
 
 /* ----- MEDIA QUERIES ----- */
 
@@ -271,7 +275,16 @@ table {
 	.iconsect1 {
 		padding-bottom: 24px !important;
 	}
+
 	.homealign {
 		text-align: center;
+	}
+
+	.chartsm {
+		display: block;
+	}
+
+	.chartlg {
+		display: none;
 	}
 }
