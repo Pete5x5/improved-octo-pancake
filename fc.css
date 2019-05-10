@@ -205,6 +205,22 @@ table {
 	padding-top: 0 !important;
 }
 
+.brandsect1, .brandquestionsrow {
+	padding-bottom: 0 !important;
+}
+
+.brandqustionstext {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 900;
+	color: #454545;
+	line-height: 0.1;
+}
+
+.branddivide1:before {
+	border-color: #454545 !important;
+}
+
 
 /* ----- MEDIA QUERIES ----- */
 
