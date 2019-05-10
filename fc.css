@@ -201,6 +201,10 @@ table {
 	font-weight: bold;
 }
 
+.brandchartrow, .brandpicrow {
+	padding-top: 0 !important;
+}
+
 
 /* ----- MEDIA QUERIES ----- */
 
