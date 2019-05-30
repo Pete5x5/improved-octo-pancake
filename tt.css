@@ -16,7 +16,7 @@ html {
 #homepic2 {
 	margin:auto;
 	display:block;
-	max-height:330px!important;
+/* 	max-height:330px !important; */
 }
 #homeblurb {
 	min-height:220px!important;
@@ -290,4 +290,8 @@ a.et_pb_more_button:hover {
 
 .et-cart-info {
 	display: none !important;
+}
+
+.dedicationsect {
+	padding: 0 !important;
 }
