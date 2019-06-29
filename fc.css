@@ -236,6 +236,40 @@ table {
 	padding-bottom: 0 !important;
 }
 
+.woocommerce-product-gallery__image {
+    pointer-events: none;
+}
+
+.woocommerce .quantity input[type="number"], .woocommerce-page .quantity input[type="number"] {
+    color: #000 !important;
+}
+
+.button:hover {
+	color: #226bd8 !important;
+	background-color: white !important;
+	border-color: #226bd8 !important;
+}
+
+.related {
+	display: none;
+}
+
+.shortpricesm {
+	font-size: 13px;
+	color: red;
+}
+
+.shortpricelg {
+	font-weight: bold;
+}
+
+td a {
+    display: block;
+}
+
+a {
+    color: inherit !important;
+}
 
 /* ----- MEDIA QUERIES ----- */
 
