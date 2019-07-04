@@ -271,6 +271,10 @@ a {
     color: inherit !important;
 }
 
+.tvrow2:hover {
+	background-color:#CCD5E8;
+}
+
 /* ----- MEDIA QUERIES ----- */
 
 @media only screen and (max-width: 479px) {
