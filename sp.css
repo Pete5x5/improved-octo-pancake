@@ -239,7 +239,9 @@
     padding-top: 0;
   }
   
-/** NOTICE CSS - OLD HEADER: The hair of your dreams starts here.**/
+/** NOTICE CSS - USE THIS FOR TEMPORARY NOTICE AT TOP OF SITE (USE FULLWIDTH HEADER TEXT) .**/
+/** STANDARD HEADER TEXT: The hair of your dreams starts here. **/
+/* 
   .homeheader1 .header-content-container {
     padding-top: 0px;
   }
@@ -258,4 +260,4 @@
       font-size: 24px;
     }
   }
-  
+  */
