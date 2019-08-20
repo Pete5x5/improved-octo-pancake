@@ -275,6 +275,11 @@ a {
 	background-color:#CCD5E8;
 }
 
+.backtext {
+	color: #01468d !important;
+	font-weight: bold;
+}
+
 /* ----- MEDIA QUERIES ----- */
 
 @media only screen and (max-width: 479px) {
