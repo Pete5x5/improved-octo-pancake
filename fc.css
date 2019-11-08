@@ -355,3 +355,15 @@ a {
 .et_pb_fullwidth_header_subhead {
 	font-size: 2vw;
 }
+
+.bft1 {
+	font-size: calc(30px + 9vw);
+	text-align: center !important;
+	line-height: 1;
+	font-weight: 800;
+}
+
+.bft2 {
+	font-size: calc(8px + 2vw);
+	line-height: 1;
+}
