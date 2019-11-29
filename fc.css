@@ -367,3 +367,8 @@ a {
 	font-size: calc(8px + 2vw);
 	line-height: 1;
 }
+
+.yw {
+	color: #01468d;
+	font-weight: 600;
+}
