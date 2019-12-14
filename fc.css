@@ -280,6 +280,17 @@ a {
 	font-weight: bold;
 }
 
+.bf1 div {
+	background-color: #ce040e !important;
+	background-image:-webkit-repeating-linear-gradient(135deg,rgba(0,0,0,.3),rgba(0,0,0,.3) 1px,transparent 2px,transparent 2px,rgba(0,0,0,.3) 3px)!important;
+	background-image:-moz-repeating-linear-gradient(135deg,rgba(0,0,0,.3),rgba(0,0,0,.3) 1px,transparent 2px,transparent 2px,rgba(0,0,0,.3) 3px)!important;
+	background-image:-o-repeating-linear-gradient(135deg,rgba(0,0,0,.3),rgba(0,0,0,.3) 1px,transparent 2px,transparent 2px,rgba(0,0,0,.3) 3px)!important;
+	background-image:repeating-linear-gradient(135deg,rgba(0,0,0,.3),rgba(0,0,0,.3) 1px,transparent 2px,transparent 2px,rgba(0,0,0,.3) 3px)!important;
+	-webkit-background-size:4px 4px!important;
+	-moz-background-size:4px 4px!important;
+	background-size:4px 4px!important;
+}
+
 /* ----- MEDIA QUERIES ----- */
 
 @media only screen and (max-width: 479px) {
