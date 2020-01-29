@@ -208,6 +208,11 @@ table {
 	font-weight: bold;
 }
 
+.stock5 {
+	color: darkorange;
+	font-weight: bold;
+}
+
 .brandchartrow, .brandpicrow {
 	padding-top: 0 !important;
 }
