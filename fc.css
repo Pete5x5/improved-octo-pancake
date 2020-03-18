@@ -153,14 +153,19 @@
 	color: #01468d !important;
 }
 
-.brandtitle, .productstitle1 {
+.brandtitle, .productstitle1, .covidtitle1 {
 	font-weight: 700;
 	font-size: 24px;
 	color: #454545;
 	line-height: 0.1;
 }
 
-.brandsubtitle, .productstext {
+.covidtitle1
+{
+	font-size: 30px;
+}
+
+.brandsubtitle, .productstext, .covidtext {
 	font-weight: 700;
 	font-size: 16px;
 	color: #01468d;
@@ -171,12 +176,25 @@
 	font-size: 14px;
 }
 
-.productstext {
+.productstext, .covidtext {
 	color: #454545;
 }
 
 .productstext a {
 	color: #bf1e2d;
+}
+
+.covidtext a {
+	color: #bf1e2d;
+}
+
+.covidemail
+{
+	color: red;
+}
+
+.covidtext2 {
+	font-weight: 500;
 }
 
 table {
