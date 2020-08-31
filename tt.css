@@ -101,11 +101,14 @@ p {
 	color:#333333;
 }
 #mailtext {
-	border-style:solid;
+/* 	border-style:solid; */
 	border-width:3px;
 	text-align:center;
 	padding-bottom:32px;
 	padding-top:6px;
+}
+#emailtext1 {
+	font-size: 22px;
 }
 #form {
 	padding-top:9px;
