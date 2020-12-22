@@ -406,3 +406,19 @@ a {
 	color: #01468d;
 	font-weight: 600;
 }
+
+.wao1 {
+	font-size: calc(30px + 9vw);
+	text-align: center !important;
+	line-height: 1;
+	font-weight: 800;
+}
+
+.wao2 {
+	font-size: calc(8px + 1.5vw);
+	line-height: 1;
+}
+
+.wao14, .wao15 {
+	padding-top: calc(15px + 1.5vw); 
+}
