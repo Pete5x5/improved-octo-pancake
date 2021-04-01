@@ -408,17 +408,21 @@ a {
 }
 
 .wao1 {
-	font-size: calc(30px + 9vw);
+	font-size: calc(20px + 1vw);
 	text-align: center !important;
 	line-height: 1;
 	font-weight: 800;
 }
 
 .wao2 {
-	font-size: calc(8px + 1.5vw);
+	font-size: calc(16px);
 	line-height: 1;
 }
 
 .wao14, .wao15 {
-	padding-top: calc(15px + 1.5vw); 
+	padding-top: calc(16px); 
+}
+
+.bf1 {
+	padding: 20px;
 }
