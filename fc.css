@@ -441,3 +441,11 @@ a {
 	font-size: 16px;
 	font-weight: 600;
 }
+
+.covid-s1, .pay-s1 {
+	min-height: calc(100vh - 365px) !important;
+}
+
+.thindiv1, .thindiv2,.thindiv3 {
+	padding: 0;
+}
