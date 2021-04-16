@@ -443,9 +443,9 @@ a {
 }
 
 .covid-s1, .pay-s1 {
-	min-height: calc(100vh - 365px) !important;
+	min-height: calc(100vh - 375px) !important;
 }
 
 .thindiv1, .thindiv2,.thindiv3 {
-	padding: 0;
+	padding: 0 !important;
 }
