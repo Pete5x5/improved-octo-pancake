@@ -111,6 +111,7 @@
 
 .inhome-consult-box {
 	background-color: #003266;
+	padding: 18px !important;
 }
 
 .inhometext {
@@ -239,6 +240,11 @@ table {
 	padding-bottom: 0 !important;
 }
 
+.brandsect1, #brandtextrow {
+	padding-top: 0 !important;
+}
+
+
 .brandqustionstext {
 	text-align: center;
 	font-size: 22px;
@@ -313,6 +319,8 @@ a {
 	-moz-background-size:4px 4px!important;
 	background-size:4px 4px!important;
 }
+
+
 
 /* ----- MEDIA QUERIES ----- */
 
