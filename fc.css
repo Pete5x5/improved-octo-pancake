@@ -4,10 +4,17 @@
 
 .icontext {
 	color: #444444;
+	font-weight: bold;
+	text-align: left;
+}
+
+.icondiv {
+	width: 300px;
+  margin: 0 auto;
 }
 
 .iconsect1 {
-	padding: 0 !important;
+	padding-bottom: 0 !important;
 }
 
 .iconc1, .iconc2, .iconc3 {
@@ -388,6 +395,8 @@ a {
 		display: none;
 	}
 }
+
+/* -- */
 
 .et_pb_module_header {
 	font-size: 7vw;
