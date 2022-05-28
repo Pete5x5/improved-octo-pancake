@@ -466,3 +466,25 @@ a {
 .thindiv1, .thindiv2,.thindiv3 {
 	padding: 0 !important;
 }
+
+.clearanceT1 {
+	font-size: calc(28px + 3vw);
+	font-weight: 900;
+	color: red;
+	align-content: center;
+	text-align: center;
+	-webkit-text-stroke: 2px white;
+}
+
+.cTable1 {
+	background: #FFFFFFDD;
+	margin-bottom: 0 !important;
+}
+
+.cTable2 {
+	border: 2px #00000088 solid;
+}
+
+.clearanceT2 .et_pb_text_inner {
+	margin: auto !important;
+}
