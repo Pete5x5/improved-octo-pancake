@@ -488,3 +488,8 @@ a {
 .clearanceT2 .et_pb_text_inner {
 	margin: auto !important;
 }
+
+.homebannersect .et_pb_column {
+	width: auto !important;
+	margin: auto;
+}
