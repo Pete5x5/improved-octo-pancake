@@ -396,6 +396,18 @@ a {
 	}
 }
 
+@media only screen and (max-width: 929px) {
+	.clearCol1, .clearCol2 {
+		float: none;
+	}
+	.clearCol1  {
+		padding-bottom: 30px;
+	}
+	.homebannersect {
+		padding: 8vh !important;
+	}
+}
+
 /* -- */
 
 .et_pb_module_header {
