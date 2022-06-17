@@ -403,8 +403,17 @@ a {
 	.clearCol1  {
 		padding-bottom: 30px;
 	}
-	.homebannersect {
-		padding: 8vh !important;
+}
+
+@media only screen and (min-width: 540px) and (max-width: 929px) {
+.homebannersect {
+	padding: 5vh !important;
+}
+}
+
+@media only screen and (max-width: 550px) {
+	.chartsm .et_pb_text_inner table, .chartsm .et_pb_text_inner table .shortpricesm  {
+		font-size: 10px;
 	}
 }
 
