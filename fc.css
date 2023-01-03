@@ -520,3 +520,24 @@ a {
 .sonybanner1 {
 	background-color: cadetblue;
 }
+
+.wstitle {
+    font-size: 3rem;
+    line-height: 0.8em;
+  }
+  
+  .wssub {
+    font-size: 1.5rem;
+  }
+  
+  .wst1 {
+    font-weight: bold;
+  }
+  
+  .wsc12 ul {
+    display: list-item;
+  }
+  
+  .wsc1 img {
+    max-height: 50vh;
+  }
