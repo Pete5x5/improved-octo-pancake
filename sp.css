@@ -239,6 +239,10 @@
     padding-top: 0;
   }
   
+  #main-header {
+    overflow: hidden;
+  }
+
 /** NOTICE CSS - USE THIS FOR TEMPORARY NOTICE AT TOP OF SITE (USE FULLWIDTH HEADER TEXT) .**/
 /** STANDARD HEADER TEXT: The hair of your dreams starts here. **/
 
