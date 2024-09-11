@@ -153,7 +153,6 @@
     padding-bottom: 0;
   }
   
-  
   .homefeattext12 {
   color: #e2ddd8;
   }
@@ -243,6 +242,10 @@
     overflow: hidden;
   }
 
+  .scroll-down-container { /* This is to remove the down arrow at the bottom of the splash image because the font does not load correctly on chrome, probably due to a cors error*/
+    display: none !important;
+  }
+
 /** NOTICE CSS - USE THIS FOR TEMPORARY NOTICE AT TOP OF SITE (USE FULLWIDTH HEADER TEXT) .**/
 /** STANDARD HEADER TEXT: The hair of your dreams starts here. **/
 /*
@@ -263,7 +266,6 @@
   max-width: 100% !important;
   padding: 0 !important;
 }
-
 
 .header-content h1 {
   font-size: 35px;
