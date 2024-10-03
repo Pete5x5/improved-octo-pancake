@@ -329,7 +329,9 @@ a {
 	background-size:4px 4px!important;
 }
 
-
+.sonosMain {
+	max-width: none;
+}
 
 /* ----- MEDIA QUERIES ----- */
 
